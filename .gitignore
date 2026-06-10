@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Local environments
+.env
+.venv/
+env/
+venv/
+
+# Model weights and datasets
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.npz
+*.npy
+datasets/*
+pretrained/*
+
+# Training outputs and generated samples
+runs/*
+runs_celebahq/*
+generated/*
+best_metrics/*
+training-runs/*
+metric-*.jsonl
+log.txt
+stats.jsonl
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.mp4
+
+# Keep placeholder docs
+!datasets/.gitkeep
+!pretrained/.gitkeep
+!generated/.gitkeep
+!runs/.gitkeep
+!runs_celebahq/.gitkeep
+!best_metrics/.gitkeep
